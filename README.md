@@ -1,3 +1,2 @@
-# I have containerized the React Application using Docker (DockerFile is main)
-# command to run the docker along with reflceting local changes in the containers(which is runnig, and storing the previous data [volumes])
+# I have containerized the React Application using Docker (DockerFile is main). Command to run the docker along with reflceting local changes in the containers(which is runnig, and storing the previous data [volumes])
 # command => docker run -p 5173:5173 -v "$(pwd):/app" -v /app/node_modules react-docker(react-docker -> docker file path)
